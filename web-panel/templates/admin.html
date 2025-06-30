@@ -1,0 +1,1 @@
+<h2>Admin Panel</h2><table>{% for id in devices %}<tr><td>{{ id }}</td><td>{{ statuses[id] }}</td><td><form method='post' action='/open/{{ id }}'><button>Aรง</button></form></td></tr>{% endfor %}</table>
